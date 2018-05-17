@@ -98,6 +98,7 @@ func main() {
 			Center:          astilectron.PtrBool(true),
 			Height:          astilectron.PtrInt(633),
 			Width:           astilectron.PtrInt(1024),
+			MinWidth:        astilectron.PtrInt(550),
 		},
 	}); err != nil {
 		astilog.Fatal(errors.Wrap(err, "running bootstrap failed"))
